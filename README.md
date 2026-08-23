@@ -1,3 +1,5 @@
+**[pro](https://github.com/Emirhan-Camci-dev/react-native-background-task-transfer-pro)**
+
 # React Native Background File Transfer
 
 🚀 **The ultimate background file upload/download engine for React Native.** 
@@ -37,7 +39,7 @@ This project is dual-licensed to support both open-source and commercial ecosyst
 ### 💎 Ready to Upgrade?
 Support the development and get a **Pro License Key** to unlock proprietary extensions and remove the AGPLv3 obligations.
 
-👉 **[Get your Pro License on Polar.sh](https://polar.sh/your-store/products/rn-background-transfer-pro)**
+👉 **[Get your Pro License on Polar.sh](https://buy.polar.sh/polar_cl_BwhqAuKoybFkauGv0CzFY5MZ2EWmia8GAKswr439SUn)**
 
 ## License
 
