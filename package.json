@@ -1,70 +1,13 @@
 {
-  "name": "@rn-background-transfer/core",
-  "version": "0.1.0",
-  "description": "Background upload and download sdk core",
-  "main": "./lib/module/index.js",
-  "types": "./lib/typescript/src/index.d.ts",
-  "exports": {
-    ".": {
-      "react-native-background-file-transfer-source": "./src/index.tsx",
-      "types": "./lib/typescript/src/index.d.ts",
-      "default": "./lib/module/index.js"
-    },
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "react-native.config.js",
-    "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__",
-    "!**/.*"
-  ],
+  "name": "background-upload-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "prepare": "bob build",
-    "typecheck": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "react-native-builder-bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      [
-        "module",
-        {
-          "esm": true
-        }
-      ],
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
-    ]
-  },
-  "codegenConfig": {
-    "name": "BackgroundFileTransferSpec",
-    "type": "modules",
-    "jsSrcsDir": "src",
-    "android": {
-      "javaPackageName": "com.backgroundfiletransfer"
-    }
-  },
+  "keywords": [],
   "author": "Emirhan CAMCI - byemir@live.com",
-  "license": "Dual-License (AGPLv3 / Proprietary)"
+  "license": "Dual-License (AGPLv3 / Proprietary)",
+  "type": "commonjs"
 }
