@@ -48,15 +48,15 @@ export const BackgroundTransfer = {
 };
 
 export function addProgressListener(callback: (event: { id: string; progress: number }) => void) {
-  return emitter.addListener('onProgress', callback);
+  return emitter.addListener('onProgress', callback as any);
 }
 
 export function addCompleteListener(callback: (event: { id: string }) => void) {
-  return emitter.addListener('onComplete', callback);
+  return emitter.addListener('onComplete', callback as any);
 }
 
 export function addErrorListener(callback: (event: { id: string; error: string }) => void) {
-  return emitter.addListener('onError', callback);
+  return emitter.addListener('onError', callback as any);
 }
 
 export function useBackgroundUpload(id: string) {
