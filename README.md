@@ -1,4 +1,3 @@
-**[pro](https://github.com/Emirhan-Camci-dev/react-native-background-task-transfer-pro)**
 
 # React Native Background File Transfer
 
